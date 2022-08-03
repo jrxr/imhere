@@ -39,9 +39,14 @@ export const styles = StyleSheet.create({
     fontSize: 24,
   },
   form: {
-    width: '100%',
-    flexDirection: 'row',
+    width: "100%",
+    flexDirection: "row",
     marginTop: 36,
     margintBottom: 42,
+  },
+  listEmptyText: {
+    color: "#FFF",
+    fontSize: 14,
+    textAlign: "center",
   },
 });
